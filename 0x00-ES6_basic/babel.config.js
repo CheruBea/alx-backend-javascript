@@ -1,5 +1,3 @@
-// babel.config.js
-
 module.exports = {
   presets: [
     [
@@ -12,4 +10,3 @@ module.exports = {
     ],
   ],
 };
-

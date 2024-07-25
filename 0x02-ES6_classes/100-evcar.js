@@ -7,7 +7,13 @@ export default class EVCar extends Car {
     this._range = range;
   }
 
+  // Override cloneCar to return an instance of Car
   cloneCar() {
-    return new Car(this._brand, this._motor, this._color);
+    return new (this.constructor[Symbol.species])();
+  }
+
+  // Set Symbol.species to return Car
+  static get [Symbol.species]() {
+    return Car;
   }
 }

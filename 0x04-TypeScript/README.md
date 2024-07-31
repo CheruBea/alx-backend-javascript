@@ -33,4 +33,4 @@ Click to show/hide file contents
 tsconfig.json
 Click to show/hide file contents
 webpack.config.js
-Click to show/hide file contents
+Click to show/hide file contents    
